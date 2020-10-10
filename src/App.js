@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { FooterContainer } from './containers/footer';
 
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello</h1>
-    </div>
+    <Fragment>
+      <FooterContainer />
+    </Fragment>
   );
 }
 
